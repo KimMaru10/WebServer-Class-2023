@@ -1,53 +1,83 @@
-# 🍽️ 밥한끼 (Bab Hankkki)
+# 🍽️ ごはん一膳 (Bab Hankki)
 
-![밥한끼 로고](https://github.com/user-attachments/assets/52faf124-3028-4f60-ac88-718242e6d822)
+![ごはん一膳 ロゴ](https://github.com/user-attachments/assets/52faf124-3028-4f60-ac88-718242e6d822)
+<p><em>▲ 食事制限が必要な方に寄り添う飲食店検索サービス「ごはん一膳」のロゴ。</em></p>
 
-## 👤 프로젝트 개요
+---
 
-### 목적
-"밥한끼" 웹사이트는 식단 관리가 필요한 질환을 가진 사람들에게 적합한 음식점을 찾고, 음식 선택에 대한 넓은 선택지와 추천을 제공하는 웹사이트입니다.
+## 👤 プロジェクト概要
 
-### 개발 배경
-개발자의 크론병 경험에서 시작된 이 프로젝트는 식단 관리가 필요한 환자들의 음식점 선택 어려움을 해결하고자 합니다. 당뇨병, 고혈압 등 다양한 질환을 가진 사람들에게 도움을 주는 것이 목표입니다.
+### 目的
 
-## 🔑 주요 기술 스택
-### 🛠️ 시스템 구성 (Web MVC Architecture)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apache%20tomcat&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+「ごはん一膳」は、食事管理が必要な疾患を抱える方々に向けて、適切な飲食店を探し、食の選択肢とおすすめ情報を幅広く提供するWebサイトです。
 
-### 주요 기능
-- 회원가입 및 로그인
-- 음식점 게시판
-- 즐겨찾기 
-- 지역 및 질병별 검색
-- 조회수 tracking
-- 질병 정보 페이지
+### 開発背景
 
-## 🖥️ 주요 페이지 미리보기
+開発者自身のクローン病（クロハン病）の経験から生まれたプロジェクトです。
+食事管理が必要な患者が飲食店選びに苦労しているという課題を解決するため、
+糖尿病・高血圧などさまざまな疾患を持つ方々をサポートすることを目標としています。
 
-### 메인 페이지
-![메인 페이지 (로그인 전)](https://github.com/user-attachments/assets/57e22c50-fa0a-4809-af17-ba3bf12c62fa)
+---
 
-### 게시판 페이지
-![게시판 페이지](https://github.com/user-attachments/assets/124e9e0b-e41b-4763-a4c3-01299fa0b01e)
+## 🛠 技術スタック
 
-### 정보 페이지
-![정보 페이지](https://github.com/user-attachments/assets/f26c1d07-db0b-4e62-a794-ba39d51686c2)
+| カテゴリ | 技術 |
+|:---|:---|
+| **バックエンド** | ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black) |
+| **データベース** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
+| **フロントエンド** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| **アーキテクチャ** | Web MVC Architecture |
 
-## 💬 프로젝트 회고
+---
 
-이 프로젝트를 통해 다음과 같은 경험과 성장을 이뤘습니다:
-- 처음으로 서버와 연동된 웹사이트 개발
-- MySQL 데이터 처리 능력 향상
-- Figma를 활용한 UX/UI 디자인 경험
-- 프론트엔드와 백엔드의 연결 이해
-- 문제 해결을 위한 자기주도적 학습
+## ✨ 主要機能
 
-## 📦 프로젝트 링크
-[GitHub 저장소 바로가기](https://github.com/KimMaru10/JSP-Project-Babhankki)
+- 会員登録 / ログイン
+- 飲食店掲示板
+- お気に入り登録
+- 地域・疾患別検索
+- 閲覧数トラッキング
+- 疾患情報ページ
 
+---
 
+## 🖥️ 主要ページ プレビュー
+
+### メインページ
+
+![メインページ（ログイン前）](https://github.com/user-attachments/assets/57e22c50-fa0a-4809-af17-ba3bf12c62fa)
+<p><em>▲ ログイン前のメインページ。疾患カテゴリや地域から飲食店を検索できるトップ画面。</em></p>
+
+---
+
+### 掲示板ページ
+
+![掲示板ページ](https://github.com/user-attachments/assets/124e9e0b-e41b-4763-a4c3-01299fa0b01e)
+<p><em>▲ 飲食店一覧の掲示板ページ。疾患・地域でフィルタリングでき、各店舗の詳細情報へアクセス可能。閲覧数も表示。</em></p>
+
+---
+
+### 情報ページ
+
+![情報ページ](https://github.com/user-attachments/assets/f26c1d07-db0b-4e62-a794-ba39d51686c2)
+<p><em>▲ 糖尿病・高血圧・クローン病などの疾患ごとに、食事制限の注意点や対応飲食店の情報を提供するページ。</em></p>
+
+---
+
+## 💬 プロジェクトを振り返って
+
+このプロジェクトを通じて、以下の経験と成長を得ることができました：
+
+- **初めてサーバーと連携したWebサイトの開発**を経験
+- MySQLを用いたデータ処理能力の向上
+- Figmaを活用したUX / UIデザインの実践
+- フロントエンドとバックエンドの連携への理解を深化
+- 問題解決に向けた自己主導的な学習姿勢の確立
+
+---
+
+## 📦 リポジトリ
+
+[GitHubリポジトリはこちら](https://github.com/KimMaru10/JSP-Project-Babhankki)
+
+---
